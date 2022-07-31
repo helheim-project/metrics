@@ -1,0 +1,15 @@
+repositories:
+  - name: metrics
+    url: https://github.com/helheim-project/metrics
+
+releases:
+  - chart: grafana
+    cleanupOnFail: false
+    devel: false
+    name: grafana
+    skipDeps: false
+  - chart: influxdb2
+    cleanupOnFail: false
+    devel: false
+    name: influxdb2
+    skipDeps: false
